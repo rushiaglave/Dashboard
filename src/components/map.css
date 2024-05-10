@@ -1,0 +1,31 @@
+/* Customize the layer control */
+.custom-layer-control {
+    background-color: #000000; /* Background color of the layer control */
+    border: 1px solid #0a0a0a; /* Border color */
+    border-radius: 5px; /* Border radius */
+    padding: 10px; /* Padding */
+  }
+  
+  /* Style for the layer control labels */
+  .custom-layer-control label {
+    display: block;
+    margin-bottom: 5px; /* Adjust spacing between layers */
+  }
+  
+  /* Style for the layer control inputs (checkboxes/radio buttons) */
+  .custom-layer-control input[type="radio"],
+  .custom-layer-control input[type="checkbox"] {
+    margin-right: 5px; /* Adjust spacing between input and label */
+  }
+  
+  /* Customize the color of the input (checkbox/radio button) */
+  .custom-layer-control input[type="radio"] + label:before,
+  .custom-layer-control input[type="checkbox"] + label:before {
+    border-color: #00ff22; /* Border color of the input */
+  }
+  
+  /* Customize the color of the checked input (checkbox/radio button) */
+  .custom-layer-control input[type="radio"]:checked + label:before,
+  .custom-layer-control input[type="checkbox"]:checked + label:before {
+    background-color: #007bff; /* Background color of the checked input */
+  }

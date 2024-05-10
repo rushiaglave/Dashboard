@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.leaflet-container {
+  height: 330px;
+  /* width: 100vh;  */
+  width: 100h;
+  justify-content: center;
+}
+
+/* .leaflet-container {
+  height: 100%;
+  width: 100%;
+} */
+
+/* .map{
+  justify-content: center;
+  height: 600px;
+} */
+
+/* glowing div */
+#glowing-div {
+  /* background-color: " #77787B"; */
+
+  /* box-shadow: 0 0 10px 0 #63c4f5; Initial box shadow */
+  /* animation: glow 1.5s ease-in-out infinite alternate; */
+}
+
+/* @keyframes glow { */
+/* 0% {
+    box-shadow: 0 0 10px 0 rgba(0, 128, 0, 0.5); /* Initial box shadow */
+/* } */
+/* 100% {
+    box-shadow: 0 0 8px 5px #032f2f; /* Larger box shadow for glowing effect */
+/* } */
+/* } */
+
+/* .row { */
+  /* box-shadow: 0 6px 9px rgba(0, 128, 0, 0.5); Green shadow */
+/* } */
+
+/* Set full height and width for the container */
+.dashboard-container {
+  width: 100%;
+  height: 100vh; /* Full height of viewport */
+  overflow: hidden; /* Prevent scrolling */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Adjust as needed */
+  /* align-items: flex-start; */
+  margin-bottom: 50px;
+}
